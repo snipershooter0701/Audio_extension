@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "chromaprint": "^0.1.0",
+    "chromaprint.js": "^0.1.0",
+    "fft": "^0.2.1",
+    "fft.js": "^4.0.4",
+    "p5": "^1.7.0"
+  }
+}

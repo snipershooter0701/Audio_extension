@@ -1,0 +1,25 @@
+{
+    "name": "Audio Comparator",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "This is a audio comparator",
+    "permissions": [
+      "tabs",
+      "activeTab",
+      "tabCapture"
+    ],
+    
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["content-scripts.js"]
+        }
+      ],
+    
+      
+      "action": {
+        "default_title": "Audio comparator",
+        "default_popup": "player.html"
+        }
+      }
+    

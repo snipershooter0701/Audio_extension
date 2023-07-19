@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script type = "module" src="./p5.js"></script>
+        <script type="module" src="./p5.sound.js"></script>
+        <link rel="stylesheet" href="./style.css">
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="wrapper">
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="shadow"></div>
+              <div class="shadow"></div>
+              <div class="shadow"></div>
+              <span id="similarity">Confidence Percent</span>
+              <div class="botón" onclick="togglePlayback(this)">
+                <div class="fondo" x="0" y="0" width="200" height="200"></div>
+                <div class="icono" width="200" height="200">
+                  <div class="parte izquierda" x="0" y="0" width="200" height="200" fill="#fff"></div>
+                  <div class="parte derecha" x="0" y="0" width="200" height="200" fill="#fff"></div>
+                </div>
+                <div class="puntero"></div>
+              </div>
+              
+              </div>
+          </div>
+        <script src="content-scripts.js"></script>
+    </body>
+
+</html>
